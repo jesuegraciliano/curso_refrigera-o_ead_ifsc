@@ -13,7 +13,7 @@
     <!-- Cabeçalho -->
     <header class="chat-header">
       <img src="logo-ifsc.png" alt="Logotipo IFSC" class="logo-ifsc" />
-      <h1>Chatbot Inteligência Artificial - IFSC São José</h1>
+      <h1>Chatbot - Tira dúvidas de Refrigeração- IFSC São José</h1>
     </header>
 
     <!-- Chat -->
@@ -32,7 +32,7 @@
       const userInput = document.getElementById('user-input');
       const sendButton = document.getElementById('send-button');
       const chatMessages = document.getElementById('chat-messages');
-      const N8N_WEBHOOK_URL = "https://hook.jesue.site/webhook/aula";
+      const N8N_WEBHOOK_URL = "https://hook.jesue.site/webhook/refrigeracao";
 
       function addMessage(sender, text) {
         const messageDiv = document.createElement('div');
@@ -84,7 +84,7 @@
         if (e.key === 'Enter') sendMessage();
       });
 
-      addMessage('bot', 'Olá! Sou o chatbot do curso de IA EAD do IFSC. Fui criado pelo prof. Jesué para ajudar você. Qual sua dúvida?');
+      addMessage('bot', 'Olá! Sou o chatbot do curso de Refrigeração do câmpus São José. Fui criado pelo prof. Jesué para ajudar você. Qual sua dúvida?');
     });
   </script>
 
